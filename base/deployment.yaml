@@ -12,6 +12,8 @@ spec:
       labels:
         app: cpap-analyzer
     spec:
+      imagePullSecrets:
+        - name: dockerhub-secret
       containers:
       - name: analyzer
         image: yourdockerhubuser/cpap-analyzer:latest
