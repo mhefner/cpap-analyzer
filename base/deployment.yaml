@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cpap-analyzer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cpap-analyzer
+  template:
+    metadata:
+      labels:
+        app: cpap-analyzer
+    spec:
+      containers:
+      - name: analyzer
+        image: yourdockerhubuser/cpap-analyzer:latest
+        ports:
+        - containerPort: 80
