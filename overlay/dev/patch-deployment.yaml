@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: cpap-analyzer
-          image: docker push mhefner1983/cpap-analyzer:dev  # tag it differently for dev
+          image: mhefner1983/cpap-analyzer:dev  # tag it differently for dev
           imagePullPolicy: Always
