@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/mhefner/cpap-analyzer
     targetRevision: HEAD
-    path: overlays/dev
+    path: overlay/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: default
