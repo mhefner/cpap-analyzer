@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-  #      app: cpap-analyzer
+        app: cpap-analyzer
     spec:
       imagePullSecrets:
         - name: dockerhub-secret
