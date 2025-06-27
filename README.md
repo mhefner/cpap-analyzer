@@ -1,5 +1,7 @@
 # CPAP Analyzer
 
+# Disclaimer this repo is specifically meant for Argo deployment if your only need the app you can get is on Dockerhub mhefner1983/cpap-analyzer
+
 A web-based application for analyzing CPAP therapy data, currently optimized for Philips DreamStation 2 devices. Upload your CPAP data files and gain insights into your sleep therapy patterns, compliance, and treatment effectiveness.
 
 ## Features

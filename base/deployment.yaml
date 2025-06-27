@@ -16,6 +16,6 @@ spec:
         - name: dockerhub-secret
       containers:
       - name: analyzer
-        image: yourdockerhubuser/cpap-analyzer:latest
+        image: mhefner1983/cpap-analyzer:dev
         ports:
         - containerPort: 80
